@@ -6,9 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/luchojuarez/crypto/src/models"
-
 	"github.com/go-resty/resty/v2"
+	"github.com/luchojuarez/crypto/src/models"
 )
 
 const cryptocompareBaseURL = "https://min-api.cryptocompare.com"
